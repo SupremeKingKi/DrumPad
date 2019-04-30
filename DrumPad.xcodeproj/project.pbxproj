@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B7F96C0A227898A300B769A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F96C09227898A300B769A6 /* AppDelegate.swift */; };
+		B7F96C0C227898A300B769A6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F96C0B227898A300B769A6 /* ViewController.swift */; };
+		B7F96C0F227898A300B769A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7F96C0D227898A300B769A6 /* Main.storyboard */; };
+		B7F96C11227898AC00B769A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7F96C10227898AC00B769A6 /* Assets.xcassets */; };
+		B7F96C14227898AC00B769A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7F96C12227898AC00B769A6 /* LaunchScreen.storyboard */; };
+		B7F96C1F227898AC00B769A6 /* DrumPadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F96C1E227898AC00B769A6 /* DrumPadTests.swift */; };
+		B7F96C2A227898AC00B769A6 /* DrumPadUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F96C29227898AC00B769A6 /* DrumPadUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B7F96C1B227898AC00B769A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B7F96BFE227898A200B769A6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B7F96C05227898A200B769A6;
+			remoteInfo = DrumPad;
+		};
+		B7F96C26227898AC00B769A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B7F96BFE227898A200B769A6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B7F96C05227898A200B769A6;
+			remoteInfo = DrumPad;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B7F96C06227898A200B769A6 /* DrumPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrumPad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7F96C09227898A300B769A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B7F96C0B227898A300B769A6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B7F96C0E227898A300B769A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B7F96C10227898AC00B769A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B7F96C13227898AC00B769A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B7F96C15227898AC00B769A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7F96C1A227898AC00B769A6 /* DrumPadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrumPadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7F96C1E227898AC00B769A6 /* DrumPadTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrumPadTests.swift; sourceTree = "<group>"; };
+		B7F96C20227898AC00B769A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7F96C25227898AC00B769A6 /* DrumPadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrumPadUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7F96C29227898AC00B769A6 /* DrumPadUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrumPadUITests.swift; sourceTree = "<group>"; };
+		B7F96C2B227898AC00B769A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B7F96C03227898A200B769A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7F96C17227898AC00B769A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7F96C22227898AC00B769A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B7F96BFD227898A200B769A6 = {
+			isa = PBXGroup;
+			children = (
+				B7F96C08227898A200B769A6 /* DrumPad */,
+				B7F96C1D227898AC00B769A6 /* DrumPadTests */,
+				B7F96C28227898AC00B769A6 /* DrumPadUITests */,
+				B7F96C07227898A200B769A6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B7F96C07227898A200B769A6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B7F96C06227898A200B769A6 /* DrumPad.app */,
+				B7F96C1A227898AC00B769A6 /* DrumPadTests.xctest */,
+				B7F96C25227898AC00B769A6 /* DrumPadUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B7F96C08227898A200B769A6 /* DrumPad */ = {
+			isa = PBXGroup;
+			children = (
+				B7F96C09227898A300B769A6 /* AppDelegate.swift */,
+				B7F96C0B227898A300B769A6 /* ViewController.swift */,
+				B7F96C0D227898A300B769A6 /* Main.storyboard */,
+				B7F96C10227898AC00B769A6 /* Assets.xcassets */,
+				B7F96C12227898AC00B769A6 /* LaunchScreen.storyboard */,
+				B7F96C15227898AC00B769A6 /* Info.plist */,
+			);
+			path = DrumPad;
+			sourceTree = "<group>";
+		};
+		B7F96C1D227898AC00B769A6 /* DrumPadTests */ = {
+			isa = PBXGroup;
+			children = (
+				B7F96C1E227898AC00B769A6 /* DrumPadTests.swift */,
+				B7F96C20227898AC00B769A6 /* Info.plist */,
+			);
+			path = DrumPadTests;
+			sourceTree = "<group>";
+		};
+		B7F96C28227898AC00B769A6 /* DrumPadUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B7F96C29227898AC00B769A6 /* DrumPadUITests.swift */,
+				B7F96C2B227898AC00B769A6 /* Info.plist */,
+			);
+			path = DrumPadUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B7F96C05227898A200B769A6 /* DrumPad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7F96C2E227898AC00B769A6 /* Build configuration list for PBXNativeTarget "DrumPad" */;
+			buildPhases = (
+				B7F96C02227898A200B769A6 /* Sources */,
+				B7F96C03227898A200B769A6 /* Frameworks */,
+				B7F96C04227898A200B769A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DrumPad;
+			productName = DrumPad;
+			productReference = B7F96C06227898A200B769A6 /* DrumPad.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B7F96C19227898AC00B769A6 /* DrumPadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7F96C31227898AC00B769A6 /* Build configuration list for PBXNativeTarget "DrumPadTests" */;
+			buildPhases = (
+				B7F96C16227898AC00B769A6 /* Sources */,
+				B7F96C17227898AC00B769A6 /* Frameworks */,
+				B7F96C18227898AC00B769A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B7F96C1C227898AC00B769A6 /* PBXTargetDependency */,
+			);
+			name = DrumPadTests;
+			productName = DrumPadTests;
+			productReference = B7F96C1A227898AC00B769A6 /* DrumPadTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B7F96C24227898AC00B769A6 /* DrumPadUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7F96C34227898AC00B769A6 /* Build configuration list for PBXNativeTarget "DrumPadUITests" */;
+			buildPhases = (
+				B7F96C21227898AC00B769A6 /* Sources */,
+				B7F96C22227898AC00B769A6 /* Frameworks */,
+				B7F96C23227898AC00B769A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B7F96C27227898AC00B769A6 /* PBXTargetDependency */,
+			);
+			name = DrumPadUITests;
+			productName = DrumPadUITests;
+			productReference = B7F96C25227898AC00B769A6 /* DrumPadUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B7F96BFE227898A200B769A6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Singam Setty, Kireeti";
+				TargetAttributes = {
+					B7F96C05227898A200B769A6 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					B7F96C19227898AC00B769A6 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = B7F96C05227898A200B769A6;
+					};
+					B7F96C24227898AC00B769A6 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = B7F96C05227898A200B769A6;
+					};
+				};
+			};
+			buildConfigurationList = B7F96C01227898A200B769A6 /* Build configuration list for PBXProject "DrumPad" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B7F96BFD227898A200B769A6;
+			productRefGroup = B7F96C07227898A200B769A6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B7F96C05227898A200B769A6 /* DrumPad */,
+				B7F96C19227898AC00B769A6 /* DrumPadTests */,
+				B7F96C24227898AC00B769A6 /* DrumPadUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B7F96C04227898A200B769A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7F96C14227898AC00B769A6 /* LaunchScreen.storyboard in Resources */,
+				B7F96C11227898AC00B769A6 /* Assets.xcassets in Resources */,
+				B7F96C0F227898A300B769A6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7F96C18227898AC00B769A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7F96C23227898AC00B769A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B7F96C02227898A200B769A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7F96C0C227898A300B769A6 /* ViewController.swift in Sources */,
+				B7F96C0A227898A300B769A6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7F96C16227898AC00B769A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7F96C1F227898AC00B769A6 /* DrumPadTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7F96C21227898AC00B769A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7F96C2A227898AC00B769A6 /* DrumPadUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B7F96C1C227898AC00B769A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B7F96C05227898A200B769A6 /* DrumPad */;
+			targetProxy = B7F96C1B227898AC00B769A6 /* PBXContainerItemProxy */;
+		};
+		B7F96C27227898AC00B769A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B7F96C05227898A200B769A6 /* DrumPad */;
+			targetProxy = B7F96C26227898AC00B769A6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B7F96C0D227898A300B769A6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B7F96C0E227898A300B769A6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B7F96C12227898AC00B769A6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B7F96C13227898AC00B769A6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B7F96C2C227898AC00B769A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B7F96C2D227898AC00B769A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B7F96C2F227898AC00B769A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DrumPad/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.DrumPad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B7F96C30227898AC00B769A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DrumPad/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.DrumPad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B7F96C32227898AC00B769A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DrumPadTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.DrumPadTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DrumPad.app/DrumPad";
+			};
+			name = Debug;
+		};
+		B7F96C33227898AC00B769A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DrumPadTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.DrumPadTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DrumPad.app/DrumPad";
+			};
+			name = Release;
+		};
+		B7F96C35227898AC00B769A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DrumPadUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.DrumPadUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DrumPad;
+			};
+			name = Debug;
+		};
+		B7F96C36227898AC00B769A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DrumPadUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.DrumPadUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DrumPad;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B7F96C01227898A200B769A6 /* Build configuration list for PBXProject "DrumPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7F96C2C227898AC00B769A6 /* Debug */,
+				B7F96C2D227898AC00B769A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7F96C2E227898AC00B769A6 /* Build configuration list for PBXNativeTarget "DrumPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7F96C2F227898AC00B769A6 /* Debug */,
+				B7F96C30227898AC00B769A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7F96C31227898AC00B769A6 /* Build configuration list for PBXNativeTarget "DrumPadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7F96C32227898AC00B769A6 /* Debug */,
+				B7F96C33227898AC00B769A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7F96C34227898AC00B769A6 /* Build configuration list for PBXNativeTarget "DrumPadUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7F96C35227898AC00B769A6 /* Debug */,
+				B7F96C36227898AC00B769A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B7F96BFE227898A200B769A6 /* Project object */;
+}

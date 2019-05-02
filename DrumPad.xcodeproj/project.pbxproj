@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B7755658227B335E005C25FF /* 9-squares-2.gif in Resources */ = {isa = PBXBuildFile; fileRef = B7755657227B335E005C25FF /* 9-squares-2.gif */; };
+		B775565A227B3A6F005C25FF /* Basic_Rock_135.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B7755659227B3A6F005C25FF /* Basic_Rock_135.mp3 */; };
+		B7755660227B3A98005C25FF /* Drum15.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B775565D227B3A97005C25FF /* Drum15.mp3 */; };
+		B7755661227B3A98005C25FF /* Drum5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B775565E227B3A97005C25FF /* Drum5.mp3 */; };
+		B7755662227B3A98005C25FF /* Drum3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B775565F227B3A98005C25FF /* Drum3.mp3 */; };
+		B7755667227B3AA6005C25FF /* Drum11.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B7755664227B3AA6005C25FF /* Drum11.mp3 */; };
+		B7755668227B3AA6005C25FF /* Drum13.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B7755665227B3AA6005C25FF /* Drum13.mp3 */; };
+		B775566B227B3AAF005C25FF /* Drum9.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B7755669227B3AAF005C25FF /* Drum9.mp3 */; };
+		B775566C227B3AAF005C25FF /* Drum7.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B775566A227B3AAF005C25FF /* Drum7.mp3 */; };
+		B775566E227B3ACB005C25FF /* Drum1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B775566D227B3ACB005C25FF /* Drum1.mp3 */; };
 		B7F96C0A227898A300B769A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F96C09227898A300B769A6 /* AppDelegate.swift */; };
 		B7F96C0C227898A300B769A6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F96C0B227898A300B769A6 /* ViewController.swift */; };
 		B7F96C0F227898A300B769A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7F96C0D227898A300B769A6 /* Main.storyboard */; };
@@ -34,6 +44,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B7755657227B335E005C25FF /* 9-squares-2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = "9-squares-2.gif"; path = "../../9-squares-2.gif"; sourceTree = "<group>"; };
+		B7755659227B3A6F005C25FF /* Basic_Rock_135.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Basic_Rock_135.mp3; path = ../../Basic_Rock_135.mp3; sourceTree = "<group>"; };
+		B775565D227B3A97005C25FF /* Drum15.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Drum15.mp3; path = ../../Drum15.mp3; sourceTree = "<group>"; };
+		B775565E227B3A97005C25FF /* Drum5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Drum5.mp3; path = ../../Drum5.mp3; sourceTree = "<group>"; };
+		B775565F227B3A98005C25FF /* Drum3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Drum3.mp3; path = ../../Drum3.mp3; sourceTree = "<group>"; };
+		B7755664227B3AA6005C25FF /* Drum11.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Drum11.mp3; path = ../../Drum11.mp3; sourceTree = "<group>"; };
+		B7755665227B3AA6005C25FF /* Drum13.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Drum13.mp3; path = ../../Drum13.mp3; sourceTree = "<group>"; };
+		B7755669227B3AAF005C25FF /* Drum9.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Drum9.mp3; path = ../../Drum9.mp3; sourceTree = "<group>"; };
+		B775566A227B3AAF005C25FF /* Drum7.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Drum7.mp3; path = ../../Drum7.mp3; sourceTree = "<group>"; };
+		B775566D227B3ACB005C25FF /* Drum1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Drum1.mp3; path = ../../Drum1.mp3; sourceTree = "<group>"; };
 		B7F96C06227898A200B769A6 /* DrumPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrumPad.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7F96C09227898A300B769A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B7F96C0B227898A300B769A6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -103,6 +123,16 @@
 				B7F96C10227898AC00B769A6 /* Assets.xcassets */,
 				B7F96C12227898AC00B769A6 /* LaunchScreen.storyboard */,
 				B7F96C15227898AC00B769A6 /* Info.plist */,
+				B7755657227B335E005C25FF /* 9-squares-2.gif */,
+				B7755659227B3A6F005C25FF /* Basic_Rock_135.mp3 */,
+				B775566D227B3ACB005C25FF /* Drum1.mp3 */,
+				B775565F227B3A98005C25FF /* Drum3.mp3 */,
+				B775565E227B3A97005C25FF /* Drum5.mp3 */,
+				B775566A227B3AAF005C25FF /* Drum7.mp3 */,
+				B7755669227B3AAF005C25FF /* Drum9.mp3 */,
+				B7755664227B3AA6005C25FF /* Drum11.mp3 */,
+				B7755665227B3AA6005C25FF /* Drum13.mp3 */,
+				B775565D227B3A97005C25FF /* Drum15.mp3 */,
 			);
 			path = DrumPad;
 			sourceTree = "<group>";
@@ -229,9 +259,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7755658227B335E005C25FF /* 9-squares-2.gif in Resources */,
 				B7F96C14227898AC00B769A6 /* LaunchScreen.storyboard in Resources */,
 				B7F96C11227898AC00B769A6 /* Assets.xcassets in Resources */,
+				B7755668227B3AA6005C25FF /* Drum13.mp3 in Resources */,
+				B7755667227B3AA6005C25FF /* Drum11.mp3 in Resources */,
+				B7755661227B3A98005C25FF /* Drum5.mp3 in Resources */,
+				B7755662227B3A98005C25FF /* Drum3.mp3 in Resources */,
+				B7755660227B3A98005C25FF /* Drum15.mp3 in Resources */,
+				B775566B227B3AAF005C25FF /* Drum9.mp3 in Resources */,
+				B775566E227B3ACB005C25FF /* Drum1.mp3 in Resources */,
 				B7F96C0F227898A300B769A6 /* Main.storyboard in Resources */,
+				B775566C227B3AAF005C25FF /* Drum7.mp3 in Resources */,
+				B775565A227B3A6F005C25FF /* Basic_Rock_135.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +473,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3692P4M65G;
 				INFOPLIST_FILE = DrumPad/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -450,6 +491,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3692P4M65G;
 				INFOPLIST_FILE = DrumPad/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

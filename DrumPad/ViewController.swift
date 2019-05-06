@@ -11,60 +11,117 @@ import AVFoundation
 
 class ViewController: UIViewController, AVAudioPlayerDelegate {
 
-    var audioPlayer: AVAudioPlayer?
-    
-    
+    var audioPlayer1: AVAudioPlayer?
+    var audioPlayer2: AVAudioPlayer?
+    var audioPlayer3: AVAudioPlayer?
+    var audioPlayer4: AVAudioPlayer?
+    var audioPlayer5: AVAudioPlayer?
+    var audioPlayer6: AVAudioPlayer?
+    var audioPlayer7: AVAudioPlayer?
+    var audioPlayer8: AVAudioPlayer?
+    var audioPlayer9: AVAudioPlayer?
     
     override func viewDidLoad() {
         super.viewDidLoad()
     }
     
     @IBAction func SquareOne(_ sender: Any) {
-        playSound(soundFileName: "Basic_Rock_135")
-    }
-    
-    @IBAction func SquareTwo(_ sender: Any) {
-        playSound(soundFileName: "Drum1")
-    }
-    
-    @IBAction func SquareThree(_ sender: Any) {
-        playSound(soundFileName: "Drum3")
-    }
-    
-    @IBAction func SquareFour(_ sender: Any) {
-        playSound(soundFileName: "Drum5")
-    }
-    
-    @IBAction func SquareFive(_ sender: Any) {
-        playSound(soundFileName: "Drum7")
-    }
-    
-    @IBAction func SquareSix(_ sender: Any) {
-        playSound(soundFileName: "Drum9")
-    }
-    
-    @IBAction func SquareSeven(_ sender: Any) {
-        playSound(soundFileName: "Drum11")
-    }
-    
-    @IBAction func SquareEight(_ sender: Any) {
-        playSound(soundFileName: "Drum13")
-    }
-    
-    @IBAction func SquareNine(_ sender: Any) {
-        playSound(soundFileName: "Drum15")
-    }
-    
-    func playSound(soundFileName : String) {
-        let soundURL = Bundle.main.url(forResource: soundFileName, withExtension: "mp3")
-
+        let soundURL = Bundle.main.url(forResource: "Basic_Rock_135", withExtension: "mp3")
         do {
-            audioPlayer = try AVAudioPlayer(contentsOf: soundURL!)
+            audioPlayer1 = try AVAudioPlayer(contentsOf: soundURL!)
         }
         catch {
             print(error)
         }
-        audioPlayer?.play()
+        audioPlayer1?.play()
+    }
+    
+    @IBAction func SquareTwo(_ sender: Any) {
+        let soundURL = Bundle.main.url(forResource: "Drum1", withExtension: "mp3")
+        do {
+            audioPlayer2 = try AVAudioPlayer(contentsOf: soundURL!)
+        }
+        catch {
+            print(error)
+        }
+        audioPlayer2?.play()
+    }
+    
+    @IBAction func SquareThree(_ sender: Any) {
+        let soundURL = Bundle.main.url(forResource: "Drum3", withExtension: "mp3")
+        do {
+            audioPlayer3 = try AVAudioPlayer(contentsOf: soundURL!)
+        }
+        catch {
+            print(error)
+        }
+        audioPlayer3?.play()
+    }
+    
+    @IBAction func SquareFour(_ sender: Any) {
+        let soundURL = Bundle.main.url(forResource: "Drum5", withExtension: "mp3")
+        do {
+            audioPlayer4 = try AVAudioPlayer(contentsOf: soundURL!)
+        }
+        catch {
+            print(error)
+        }
+        audioPlayer4?.play()
+    }
+    
+    @IBAction func SquareFive(_ sender: Any) {
+        let soundURL = Bundle.main.url(forResource: "Drum7", withExtension: "mp3")
+        do {
+            audioPlayer5 = try AVAudioPlayer(contentsOf: soundURL!)
+        }
+        catch {
+            print(error)
+        }
+        audioPlayer5?.play()
+    }
+    
+    @IBAction func SquareSix(_ sender: Any) {
+        let soundURL = Bundle.main.url(forResource: "Drum9", withExtension: "mp3")
+        do {
+            audioPlayer6 = try AVAudioPlayer(contentsOf: soundURL!)
+        }
+        catch {
+            print(error)
+        }
+        audioPlayer6?.play()
+    }
+    
+    @IBAction func SquareSeven(_ sender: Any) {
+        let soundURL = Bundle.main.url(forResource: "Drum11", withExtension: "mp3")
+        do {
+            audioPlayer7 = try AVAudioPlayer(contentsOf: soundURL!)
+        }
+        catch {
+            print(error)
+        }
+        audioPlayer7?.play()
+    }
+    
+    @IBAction func SquareEight(_ sender: Any) {
+        let soundURL = Bundle.main.url(forResource: "Drum13", withExtension: "mp3")
+        do {
+            audioPlayer8 = try AVAudioPlayer(contentsOf: soundURL!)
+        }
+        catch {
+            print(error)
+        }
+        audioPlayer8?.play()
+    }
+    
+    @IBAction func SquareNine(_ sender: Any) {
+        let soundURL = Bundle.main.url(forResource: "Drum15", withExtension: "mp3")
+        do {
+            audioPlayer9 = try AVAudioPlayer(contentsOf: soundURL!)
+        }
+        catch {
+            print(error)
+        }
+        audioPlayer9?.play()
     }
 }
 

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B708DBE3228DB513006C7773 /* Lil Nas X - Old Town Road (feat. Billy Ray Cyrus) [Remix].mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B708DBE2228DB513006C7773 /* Lil Nas X - Old Town Road (feat. Billy Ray Cyrus) [Remix].mp3 */; };
 		B7755658227B335E005C25FF /* 9-squares-2.gif in Resources */ = {isa = PBXBuildFile; fileRef = B7755657227B335E005C25FF /* 9-squares-2.gif */; };
 		B775565A227B3A6F005C25FF /* Basic_Rock_135.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B7755659227B3A6F005C25FF /* Basic_Rock_135.mp3 */; };
 		B7755660227B3A98005C25FF /* Drum15.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B775565D227B3A97005C25FF /* Drum15.mp3 */; };
@@ -44,6 +45,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B708DBE2228DB513006C7773 /* Lil Nas X - Old Town Road (feat. Billy Ray Cyrus) [Remix].mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Lil Nas X - Old Town Road (feat. Billy Ray Cyrus) [Remix].mp3"; path = "../../Lil Nas X - Old Town Road (feat. Billy Ray Cyrus) [Remix].mp3"; sourceTree = "<group>"; };
 		B7755657227B335E005C25FF /* 9-squares-2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = "9-squares-2.gif"; path = "../../9-squares-2.gif"; sourceTree = "<group>"; };
 		B7755659227B3A6F005C25FF /* Basic_Rock_135.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Basic_Rock_135.mp3; path = ../../Basic_Rock_135.mp3; sourceTree = "<group>"; };
 		B775565D227B3A97005C25FF /* Drum15.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Drum15.mp3; path = ../../Drum15.mp3; sourceTree = "<group>"; };
@@ -133,6 +135,7 @@
 				B7755664227B3AA6005C25FF /* Drum11.mp3 */,
 				B7755665227B3AA6005C25FF /* Drum13.mp3 */,
 				B775565D227B3A97005C25FF /* Drum15.mp3 */,
+				B708DBE2228DB513006C7773 /* Lil Nas X - Old Town Road (feat. Billy Ray Cyrus) [Remix].mp3 */,
 			);
 			path = DrumPad;
 			sourceTree = "<group>";
@@ -265,6 +268,7 @@
 				B7755668227B3AA6005C25FF /* Drum13.mp3 in Resources */,
 				B7755667227B3AA6005C25FF /* Drum11.mp3 in Resources */,
 				B7755661227B3A98005C25FF /* Drum5.mp3 in Resources */,
+				B708DBE3228DB513006C7773 /* Lil Nas X - Old Town Road (feat. Billy Ray Cyrus) [Remix].mp3 in Resources */,
 				B7755662227B3A98005C25FF /* Drum3.mp3 in Resources */,
 				B7755660227B3A98005C25FF /* Drum15.mp3 in Resources */,
 				B775566B227B3AAF005C25FF /* Drum9.mp3 in Resources */,

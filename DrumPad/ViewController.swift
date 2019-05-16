@@ -10,7 +10,13 @@ import UIKit
 import AVFoundation
 
 class ViewController: UIViewController, AVAudioPlayerDelegate {
-
+    
+    var audioPlayerUser = AVAudioPlayer()
+    @IBOutlet weak var SongLabel: UILabel!
+    @IBOutlet weak var timeLabel: UILabel!
+    var isPlaying = false
+    var timer:Timer!
+    
     var audioPlayer1: AVAudioPlayer?
     var audioPlayer2: AVAudioPlayer?
     var audioPlayer3: AVAudioPlayer?
@@ -23,6 +29,40 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        SongLabel.text = "Future Islands - Tin Man"
+        let soundURL = Bundle.main.url(forResource: "Lil Nas X - Old Town Road (feat. Billy Ray Cyrus) [Remix]", withExtension: "mp3")
+        do {
+            audioPlayerUser = try AVAudioPlayer(contentsOf: soundURL!)
+        }
+        catch {
+            print(error)
+        }
+    }
+    
+    @objc func updateTime() {
+        let currentTime = Int(audioPlayerUser.currentTime)
+        let minutes = currentTime/60
+        let seconds = currentTime - minutes * 60
+        
+        timeLabel.text = String(format: "%02d:%02d", minutes,seconds) as String
+    }
+    
+    @IBAction func stopButtonClicked(_ sender: Any) {
+        audioPlayerUser.stop()
+        audioPlayerUser.currentTime = 0
+        isPlaying = false
+    }
+    
+    @IBAction func playButtonClicked(_ sender: Any) {
+        if isPlaying {
+            audioPlayerUser.pause()
+            isPlaying = false
+        } else {
+            audioPlayerUser.play()
+            isPlaying = true
+            
+            timer = Timer.scheduledTimer(timeInterval: 1.0, target: self, selector: #selector(updateTime), userInfo: nil, repeats: true)
+        }
     }
     
     @IBAction func SquareOne(_ sender: Any) {

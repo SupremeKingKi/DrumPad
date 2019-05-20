@@ -16,6 +16,7 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
     @IBOutlet weak var timeLabel: UILabel!
     var isPlaying = false
     var timer:Timer!
+    var arrSongs = ["Lil Nas X - Old Town Road (feat. Billy Ray Cyrus) [Remix]", "Sunflower (Spider-Man Into the Spider-Verse)", "Post Malone - Wow. (Clean - Lyrics)"]
     
     var audioPlayer1: AVAudioPlayer?
     var audioPlayer2: AVAudioPlayer?
@@ -26,10 +27,11 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
     var audioPlayer7: AVAudioPlayer?
     var audioPlayer8: AVAudioPlayer?
     var audioPlayer9: AVAudioPlayer?
+    @IBOutlet weak var segControl: UISegmentedControl!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        SongLabel.text = "Future Islands - Tin Man"
+        SongLabel.text = "Lil Nas X - Old Town Road (feat. Billy Ray Cyrus) [Remix]"
         let soundURL = Bundle.main.url(forResource: "Lil Nas X - Old Town Road (feat. Billy Ray Cyrus) [Remix]", withExtension: "mp3")
         do {
             audioPlayerUser = try AVAudioPlayer(contentsOf: soundURL!)
@@ -53,6 +55,37 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
         isPlaying = false
     }
     
+    func stopAndGo(num: Int) {
+        audioPlayerUser.stop()
+        audioPlayerUser.currentTime = 0
+        isPlaying = false
+        let soundURL = Bundle.main.url(forResource: arrSongs[num], withExtension: "mp3")
+        do {
+            audioPlayerUser = try AVAudioPlayer(contentsOf: soundURL!)
+        }
+        catch {
+            print(error)
+        }
+    }
+    
+    @IBAction func songSlider(_ sender: Any) {
+        switch segControl.selectedSegmentIndex
+        {
+        case 0:
+            SongLabel.text = "Lil Nas X - Old Town Road (feat. Billy Ray Cyrus) [Remix]"
+            stopAndGo(num: 0)
+        case 1:
+            SongLabel.text = "Sunflower (Spider-Man Into the Spider-Verse)"
+            stopAndGo(num: 1)
+        case 2:
+            SongLabel.text = "Post Malone - Wow. (Clean - Lyrics)"
+            stopAndGo(num: 2)
+        default:
+            break
+        }
+    }
+    
+    
     @IBAction func playButtonClicked(_ sender: Any) {
         if isPlaying {
             audioPlayerUser.pause()
@@ -66,7 +99,7 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
     }
     
     @IBAction func SquareOne(_ sender: Any) {
-        let soundURL = Bundle.main.url(forResource: "Basic_Rock_135", withExtension: "mp3")
+        let soundURL = Bundle.main.url(forResource: "clap-808", withExtension: "wav")
         do {
             audioPlayer1 = try AVAudioPlayer(contentsOf: soundURL!)
         }
@@ -77,7 +110,7 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
     }
     
     @IBAction func SquareTwo(_ sender: Any) {
-        let soundURL = Bundle.main.url(forResource: "Drum1", withExtension: "mp3")
+        let soundURL = Bundle.main.url(forResource: "crash-808", withExtension: "wav")
         do {
             audioPlayer2 = try AVAudioPlayer(contentsOf: soundURL!)
         }
@@ -88,7 +121,7 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
     }
     
     @IBAction func SquareThree(_ sender: Any) {
-        let soundURL = Bundle.main.url(forResource: "Drum3", withExtension: "mp3")
+        let soundURL = Bundle.main.url(forResource: "crash-acoustic", withExtension: "wav")
         do {
             audioPlayer3 = try AVAudioPlayer(contentsOf: soundURL!)
         }
@@ -99,7 +132,7 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
     }
     
     @IBAction func SquareFour(_ sender: Any) {
-        let soundURL = Bundle.main.url(forResource: "Drum5", withExtension: "mp3")
+        let soundURL = Bundle.main.url(forResource: "hihat-acoustic01", withExtension: "wav")
         do {
             audioPlayer4 = try AVAudioPlayer(contentsOf: soundURL!)
         }
@@ -110,7 +143,7 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
     }
     
     @IBAction func SquareFive(_ sender: Any) {
-        let soundURL = Bundle.main.url(forResource: "Drum7", withExtension: "mp3")
+        let soundURL = Bundle.main.url(forResource: "kick-808", withExtension: "wav")
         do {
             audioPlayer5 = try AVAudioPlayer(contentsOf: soundURL!)
         }
@@ -121,7 +154,7 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
     }
     
     @IBAction func SquareSix(_ sender: Any) {
-        let soundURL = Bundle.main.url(forResource: "Drum9", withExtension: "mp3")
+        let soundURL = Bundle.main.url(forResource: "perc-hollow", withExtension: "wav")
         do {
             audioPlayer6 = try AVAudioPlayer(contentsOf: soundURL!)
         }
@@ -132,7 +165,7 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
     }
     
     @IBAction func SquareSeven(_ sender: Any) {
-        let soundURL = Bundle.main.url(forResource: "Drum11", withExtension: "mp3")
+        let soundURL = Bundle.main.url(forResource: "ride-acoustic02", withExtension: "wav")
         do {
             audioPlayer7 = try AVAudioPlayer(contentsOf: soundURL!)
         }
@@ -143,7 +176,7 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
     }
     
     @IBAction func SquareEight(_ sender: Any) {
-        let soundURL = Bundle.main.url(forResource: "Drum13", withExtension: "mp3")
+        let soundURL = Bundle.main.url(forResource: "shaker-shuffle", withExtension: "wav")
         do {
             audioPlayer8 = try AVAudioPlayer(contentsOf: soundURL!)
         }
@@ -154,7 +187,7 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
     }
     
     @IBAction func SquareNine(_ sender: Any) {
-        let soundURL = Bundle.main.url(forResource: "Drum15", withExtension: "mp3")
+        let soundURL = Bundle.main.url(forResource: "tom-chiptune", withExtension: "wav")
         do {
             audioPlayer9 = try AVAudioPlayer(contentsOf: soundURL!)
         }

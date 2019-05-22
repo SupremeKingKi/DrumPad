@@ -7,19 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B708DBE3228DB513006C7773 /* Lil Nas X - Old Town Road (feat. Billy Ray Cyrus) [Remix].mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B708DBE2228DB513006C7773 /* Lil Nas X - Old Town Road (feat. Billy Ray Cyrus) [Remix].mp3 */; };
-		B728327E2292EC530031B300 /* Sunflower (Spider-Man Into the Spider-Verse).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B728327D2292EC530031B300 /* Sunflower (Spider-Man Into the Spider-Verse).mp3 */; };
-		B72832802292EC5A0031B300 /* Post Malone - Wow. (Clean - Lyrics).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B728327F2292EC5A0031B300 /* Post Malone - Wow. (Clean - Lyrics).mp3 */; };
-		B728328A2292F5D10031B300 /* crash-acoustic.wav in Resources */ = {isa = PBXBuildFile; fileRef = B72832812292F5D00031B300 /* crash-acoustic.wav */; };
-		B728328B2292F5D10031B300 /* shaker-shuffle.wav in Resources */ = {isa = PBXBuildFile; fileRef = B72832822292F5D10031B300 /* shaker-shuffle.wav */; };
-		B728328C2292F5D10031B300 /* kick-808.wav in Resources */ = {isa = PBXBuildFile; fileRef = B72832832292F5D10031B300 /* kick-808.wav */; };
-		B728328D2292F5D10031B300 /* hihat-acoustic01.wav in Resources */ = {isa = PBXBuildFile; fileRef = B72832842292F5D10031B300 /* hihat-acoustic01.wav */; };
-		B728328E2292F5D10031B300 /* ride-acoustic02.wav in Resources */ = {isa = PBXBuildFile; fileRef = B72832852292F5D10031B300 /* ride-acoustic02.wav */; };
-		B728328F2292F5D10031B300 /* perc-hollow.wav in Resources */ = {isa = PBXBuildFile; fileRef = B72832862292F5D10031B300 /* perc-hollow.wav */; };
-		B72832902292F5D10031B300 /* crash-808.wav in Resources */ = {isa = PBXBuildFile; fileRef = B72832872292F5D10031B300 /* crash-808.wav */; };
-		B72832912292F5D10031B300 /* clap-808.wav in Resources */ = {isa = PBXBuildFile; fileRef = B72832882292F5D10031B300 /* clap-808.wav */; };
-		B72832922292F5D10031B300 /* tom-chiptune.wav in Resources */ = {isa = PBXBuildFile; fileRef = B72832892292F5D10031B300 /* tom-chiptune.wav */; };
 		B7755658227B335E005C25FF /* 9-squares-2.gif in Resources */ = {isa = PBXBuildFile; fileRef = B7755657227B335E005C25FF /* 9-squares-2.gif */; };
+		B7987F3122958F22004F24B1 /* crash-808.wav in Resources */ = {isa = PBXBuildFile; fileRef = B7987F3022958F22004F24B1 /* crash-808.wav */; };
+		B7987F3322958F3F004F24B1 /* clap-808.wav in Resources */ = {isa = PBXBuildFile; fileRef = B7987F3222958F3F004F24B1 /* clap-808.wav */; };
+		B7987F3522958F4A004F24B1 /* hihat-acoustic01.wav in Resources */ = {isa = PBXBuildFile; fileRef = B7987F3422958F4A004F24B1 /* hihat-acoustic01.wav */; };
+		B7987F3722958F57004F24B1 /* shaker-shuffle.wav in Resources */ = {isa = PBXBuildFile; fileRef = B7987F3622958F57004F24B1 /* shaker-shuffle.wav */; };
+		B7987F3922958F5E004F24B1 /* perc-hollow.wav in Resources */ = {isa = PBXBuildFile; fileRef = B7987F3822958F5E004F24B1 /* perc-hollow.wav */; };
+		B7987F3B22958F71004F24B1 /* crash-acoustic.wav in Resources */ = {isa = PBXBuildFile; fileRef = B7987F3A22958F70004F24B1 /* crash-acoustic.wav */; };
+		B7987F3D22958F7C004F24B1 /* ride-acoustic02.wav in Resources */ = {isa = PBXBuildFile; fileRef = B7987F3C22958F7C004F24B1 /* ride-acoustic02.wav */; };
+		B7987F3F22958F88004F24B1 /* Sunflower (Spider-Man Into the Spider-Verse).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B7987F3E22958F88004F24B1 /* Sunflower (Spider-Man Into the Spider-Verse).mp3 */; };
+		B7987F4122958F91004F24B1 /* Lil Nas X - Old Town Road (feat. Billy Ray Cyrus) [Remix].mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B7987F4022958F91004F24B1 /* Lil Nas X - Old Town Road (feat. Billy Ray Cyrus) [Remix].mp3 */; };
+		B7987F4322958F9E004F24B1 /* Post Malone - Wow. (Clean - Lyrics).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B7987F4222958F9E004F24B1 /* Post Malone - Wow. (Clean - Lyrics).mp3 */; };
+		B7987F4522958FAE004F24B1 /* tom-chiptune.wav in Resources */ = {isa = PBXBuildFile; fileRef = B7987F4422958FAE004F24B1 /* tom-chiptune.wav */; };
+		B7987F4722958FBD004F24B1 /* kick-808.wav in Resources */ = {isa = PBXBuildFile; fileRef = B7987F4622958FBD004F24B1 /* kick-808.wav */; };
 		B7F96C0A227898A300B769A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F96C09227898A300B769A6 /* AppDelegate.swift */; };
 		B7F96C0C227898A300B769A6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F96C0B227898A300B769A6 /* ViewController.swift */; };
 		B7F96C0F227898A300B769A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7F96C0D227898A300B769A6 /* Main.storyboard */; };
@@ -47,19 +47,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		B708DBE2228DB513006C7773 /* Lil Nas X - Old Town Road (feat. Billy Ray Cyrus) [Remix].mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Lil Nas X - Old Town Road (feat. Billy Ray Cyrus) [Remix].mp3"; path = "../../Lil Nas X - Old Town Road (feat. Billy Ray Cyrus) [Remix].mp3"; sourceTree = "<group>"; };
-		B728327D2292EC530031B300 /* Sunflower (Spider-Man Into the Spider-Verse).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Sunflower (Spider-Man Into the Spider-Verse).mp3"; path = "../../Sunflower (Spider-Man Into the Spider-Verse).mp3"; sourceTree = "<group>"; };
-		B728327F2292EC5A0031B300 /* Post Malone - Wow. (Clean - Lyrics).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Post Malone - Wow. (Clean - Lyrics).mp3"; path = "../../Post Malone - Wow. (Clean - Lyrics).mp3"; sourceTree = "<group>"; };
-		B72832812292F5D00031B300 /* crash-acoustic.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "crash-acoustic.wav"; path = "../../crash-acoustic.wav"; sourceTree = "<group>"; };
-		B72832822292F5D10031B300 /* shaker-shuffle.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "shaker-shuffle.wav"; path = "../../shaker-shuffle.wav"; sourceTree = "<group>"; };
-		B72832832292F5D10031B300 /* kick-808.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "kick-808.wav"; path = "../../kick-808.wav"; sourceTree = "<group>"; };
-		B72832842292F5D10031B300 /* hihat-acoustic01.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "hihat-acoustic01.wav"; path = "../../hihat-acoustic01.wav"; sourceTree = "<group>"; };
-		B72832852292F5D10031B300 /* ride-acoustic02.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "ride-acoustic02.wav"; path = "../../ride-acoustic02.wav"; sourceTree = "<group>"; };
-		B72832862292F5D10031B300 /* perc-hollow.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "perc-hollow.wav"; path = "../../perc-hollow.wav"; sourceTree = "<group>"; };
-		B72832872292F5D10031B300 /* crash-808.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "crash-808.wav"; path = "../../crash-808.wav"; sourceTree = "<group>"; };
-		B72832882292F5D10031B300 /* clap-808.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "clap-808.wav"; path = "../../clap-808.wav"; sourceTree = "<group>"; };
-		B72832892292F5D10031B300 /* tom-chiptune.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "tom-chiptune.wav"; path = "../../tom-chiptune.wav"; sourceTree = "<group>"; };
 		B7755657227B335E005C25FF /* 9-squares-2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = "9-squares-2.gif"; path = "../../9-squares-2.gif"; sourceTree = "<group>"; };
+		B7987F3022958F22004F24B1 /* crash-808.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "crash-808.wav"; sourceTree = "<group>"; };
+		B7987F3222958F3F004F24B1 /* clap-808.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "clap-808.wav"; sourceTree = "<group>"; };
+		B7987F3422958F4A004F24B1 /* hihat-acoustic01.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "hihat-acoustic01.wav"; sourceTree = "<group>"; };
+		B7987F3622958F57004F24B1 /* shaker-shuffle.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "shaker-shuffle.wav"; sourceTree = "<group>"; };
+		B7987F3822958F5E004F24B1 /* perc-hollow.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "perc-hollow.wav"; sourceTree = "<group>"; };
+		B7987F3A22958F70004F24B1 /* crash-acoustic.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "crash-acoustic.wav"; sourceTree = "<group>"; };
+		B7987F3C22958F7C004F24B1 /* ride-acoustic02.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "ride-acoustic02.wav"; sourceTree = "<group>"; };
+		B7987F3E22958F88004F24B1 /* Sunflower (Spider-Man Into the Spider-Verse).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Sunflower (Spider-Man Into the Spider-Verse).mp3"; sourceTree = "<group>"; };
+		B7987F4022958F91004F24B1 /* Lil Nas X - Old Town Road (feat. Billy Ray Cyrus) [Remix].mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Lil Nas X - Old Town Road (feat. Billy Ray Cyrus) [Remix].mp3"; sourceTree = "<group>"; };
+		B7987F4222958F9E004F24B1 /* Post Malone - Wow. (Clean - Lyrics).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Post Malone - Wow. (Clean - Lyrics).mp3"; sourceTree = "<group>"; };
+		B7987F4422958FAE004F24B1 /* tom-chiptune.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "tom-chiptune.wav"; sourceTree = "<group>"; };
+		B7987F4622958FBD004F24B1 /* kick-808.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "kick-808.wav"; sourceTree = "<group>"; };
 		B7F96C06227898A200B769A6 /* DrumPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrumPad.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7F96C09227898A300B769A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B7F96C0B227898A300B769A6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -130,18 +130,18 @@
 				B7F96C12227898AC00B769A6 /* LaunchScreen.storyboard */,
 				B7F96C15227898AC00B769A6 /* Info.plist */,
 				B7755657227B335E005C25FF /* 9-squares-2.gif */,
-				B708DBE2228DB513006C7773 /* Lil Nas X - Old Town Road (feat. Billy Ray Cyrus) [Remix].mp3 */,
-				B728327D2292EC530031B300 /* Sunflower (Spider-Man Into the Spider-Verse).mp3 */,
-				B72832882292F5D10031B300 /* clap-808.wav */,
-				B72832872292F5D10031B300 /* crash-808.wav */,
-				B72832812292F5D00031B300 /* crash-acoustic.wav */,
-				B72832842292F5D10031B300 /* hihat-acoustic01.wav */,
-				B72832832292F5D10031B300 /* kick-808.wav */,
-				B72832862292F5D10031B300 /* perc-hollow.wav */,
-				B72832852292F5D10031B300 /* ride-acoustic02.wav */,
-				B72832822292F5D10031B300 /* shaker-shuffle.wav */,
-				B72832892292F5D10031B300 /* tom-chiptune.wav */,
-				B728327F2292EC5A0031B300 /* Post Malone - Wow. (Clean - Lyrics).mp3 */,
+				B7987F3222958F3F004F24B1 /* clap-808.wav */,
+				B7987F3422958F4A004F24B1 /* hihat-acoustic01.wav */,
+				B7987F4622958FBD004F24B1 /* kick-808.wav */,
+				B7987F3822958F5E004F24B1 /* perc-hollow.wav */,
+				B7987F3E22958F88004F24B1 /* Sunflower (Spider-Man Into the Spider-Verse).mp3 */,
+				B7987F3A22958F70004F24B1 /* crash-acoustic.wav */,
+				B7987F4022958F91004F24B1 /* Lil Nas X - Old Town Road (feat. Billy Ray Cyrus) [Remix].mp3 */,
+				B7987F3C22958F7C004F24B1 /* ride-acoustic02.wav */,
+				B7987F3622958F57004F24B1 /* shaker-shuffle.wav */,
+				B7987F4422958FAE004F24B1 /* tom-chiptune.wav */,
+				B7987F4222958F9E004F24B1 /* Post Malone - Wow. (Clean - Lyrics).mp3 */,
+				B7987F3022958F22004F24B1 /* crash-808.wav */,
 			);
 			path = DrumPad;
 			sourceTree = "<group>";
@@ -271,19 +271,19 @@
 				B7755658227B335E005C25FF /* 9-squares-2.gif in Resources */,
 				B7F96C14227898AC00B769A6 /* LaunchScreen.storyboard in Resources */,
 				B7F96C11227898AC00B769A6 /* Assets.xcassets in Resources */,
-				B72832912292F5D10031B300 /* clap-808.wav in Resources */,
-				B728328C2292F5D10031B300 /* kick-808.wav in Resources */,
-				B728328D2292F5D10031B300 /* hihat-acoustic01.wav in Resources */,
-				B728328F2292F5D10031B300 /* perc-hollow.wav in Resources */,
-				B728328E2292F5D10031B300 /* ride-acoustic02.wav in Resources */,
-				B72832802292EC5A0031B300 /* Post Malone - Wow. (Clean - Lyrics).mp3 in Resources */,
-				B72832922292F5D10031B300 /* tom-chiptune.wav in Resources */,
-				B728328B2292F5D10031B300 /* shaker-shuffle.wav in Resources */,
-				B708DBE3228DB513006C7773 /* Lil Nas X - Old Town Road (feat. Billy Ray Cyrus) [Remix].mp3 in Resources */,
-				B728327E2292EC530031B300 /* Sunflower (Spider-Man Into the Spider-Verse).mp3 in Resources */,
-				B72832902292F5D10031B300 /* crash-808.wav in Resources */,
+				B7987F3322958F3F004F24B1 /* clap-808.wav in Resources */,
+				B7987F3722958F57004F24B1 /* shaker-shuffle.wav in Resources */,
+				B7987F4322958F9E004F24B1 /* Post Malone - Wow. (Clean - Lyrics).mp3 in Resources */,
+				B7987F3122958F22004F24B1 /* crash-808.wav in Resources */,
+				B7987F4722958FBD004F24B1 /* kick-808.wav in Resources */,
+				B7987F3B22958F71004F24B1 /* crash-acoustic.wav in Resources */,
+				B7987F4522958FAE004F24B1 /* tom-chiptune.wav in Resources */,
+				B7987F3F22958F88004F24B1 /* Sunflower (Spider-Man Into the Spider-Verse).mp3 in Resources */,
+				B7987F3922958F5E004F24B1 /* perc-hollow.wav in Resources */,
+				B7987F4122958F91004F24B1 /* Lil Nas X - Old Town Road (feat. Billy Ray Cyrus) [Remix].mp3 in Resources */,
+				B7987F3522958F4A004F24B1 /* hihat-acoustic01.wav in Resources */,
+				B7987F3D22958F7C004F24B1 /* ride-acoustic02.wav in Resources */,
 				B7F96C0F227898A300B769A6 /* Main.storyboard in Resources */,
-				B728328A2292F5D10031B300 /* crash-acoustic.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B7755658227B335E005C25FF /* 9-squares-2.gif in Resources */ = {isa = PBXBuildFile; fileRef = B7755657227B335E005C25FF /* 9-squares-2.gif */; };
 		B7987F3122958F22004F24B1 /* crash-808.wav in Resources */ = {isa = PBXBuildFile; fileRef = B7987F3022958F22004F24B1 /* crash-808.wav */; };
 		B7987F3322958F3F004F24B1 /* clap-808.wav in Resources */ = {isa = PBXBuildFile; fileRef = B7987F3222958F3F004F24B1 /* clap-808.wav */; };
 		B7987F3522958F4A004F24B1 /* hihat-acoustic01.wav in Resources */ = {isa = PBXBuildFile; fileRef = B7987F3422958F4A004F24B1 /* hihat-acoustic01.wav */; };
@@ -20,6 +19,7 @@
 		B7987F4322958F9E004F24B1 /* Post Malone - Wow. (Clean - Lyrics).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B7987F4222958F9E004F24B1 /* Post Malone - Wow. (Clean - Lyrics).mp3 */; };
 		B7987F4522958FAE004F24B1 /* tom-chiptune.wav in Resources */ = {isa = PBXBuildFile; fileRef = B7987F4422958FAE004F24B1 /* tom-chiptune.wav */; };
 		B7987F4722958FBD004F24B1 /* kick-808.wav in Resources */ = {isa = PBXBuildFile; fileRef = B7987F4622958FBD004F24B1 /* kick-808.wav */; };
+		B7987F4922959714004F24B1 /* 9-squares-2.gif in Resources */ = {isa = PBXBuildFile; fileRef = B7987F4822959714004F24B1 /* 9-squares-2.gif */; };
 		B7F96C0A227898A300B769A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F96C09227898A300B769A6 /* AppDelegate.swift */; };
 		B7F96C0C227898A300B769A6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F96C0B227898A300B769A6 /* ViewController.swift */; };
 		B7F96C0F227898A300B769A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7F96C0D227898A300B769A6 /* Main.storyboard */; };
@@ -47,7 +47,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		B7755657227B335E005C25FF /* 9-squares-2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = "9-squares-2.gif"; path = "../../9-squares-2.gif"; sourceTree = "<group>"; };
 		B7987F3022958F22004F24B1 /* crash-808.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "crash-808.wav"; sourceTree = "<group>"; };
 		B7987F3222958F3F004F24B1 /* clap-808.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "clap-808.wav"; sourceTree = "<group>"; };
 		B7987F3422958F4A004F24B1 /* hihat-acoustic01.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "hihat-acoustic01.wav"; sourceTree = "<group>"; };
@@ -60,6 +59,7 @@
 		B7987F4222958F9E004F24B1 /* Post Malone - Wow. (Clean - Lyrics).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Post Malone - Wow. (Clean - Lyrics).mp3"; sourceTree = "<group>"; };
 		B7987F4422958FAE004F24B1 /* tom-chiptune.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "tom-chiptune.wav"; sourceTree = "<group>"; };
 		B7987F4622958FBD004F24B1 /* kick-808.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "kick-808.wav"; sourceTree = "<group>"; };
+		B7987F4822959714004F24B1 /* 9-squares-2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "9-squares-2.gif"; sourceTree = "<group>"; };
 		B7F96C06227898A200B769A6 /* DrumPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrumPad.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7F96C09227898A300B769A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B7F96C0B227898A300B769A6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -129,8 +129,8 @@
 				B7F96C10227898AC00B769A6 /* Assets.xcassets */,
 				B7F96C12227898AC00B769A6 /* LaunchScreen.storyboard */,
 				B7F96C15227898AC00B769A6 /* Info.plist */,
-				B7755657227B335E005C25FF /* 9-squares-2.gif */,
 				B7987F3222958F3F004F24B1 /* clap-808.wav */,
+				B7987F4822959714004F24B1 /* 9-squares-2.gif */,
 				B7987F3422958F4A004F24B1 /* hihat-acoustic01.wav */,
 				B7987F4622958FBD004F24B1 /* kick-808.wav */,
 				B7987F3822958F5E004F24B1 /* perc-hollow.wav */,
@@ -268,7 +268,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B7755658227B335E005C25FF /* 9-squares-2.gif in Resources */,
 				B7F96C14227898AC00B769A6 /* LaunchScreen.storyboard in Resources */,
 				B7F96C11227898AC00B769A6 /* Assets.xcassets in Resources */,
 				B7987F3322958F3F004F24B1 /* clap-808.wav in Resources */,
@@ -281,6 +280,7 @@
 				B7987F3F22958F88004F24B1 /* Sunflower (Spider-Man Into the Spider-Verse).mp3 in Resources */,
 				B7987F3922958F5E004F24B1 /* perc-hollow.wav in Resources */,
 				B7987F4122958F91004F24B1 /* Lil Nas X - Old Town Road (feat. Billy Ray Cyrus) [Remix].mp3 in Resources */,
+				B7987F4922959714004F24B1 /* 9-squares-2.gif in Resources */,
 				B7987F3522958F4A004F24B1 /* hihat-acoustic01.wav in Resources */,
 				B7987F3D22958F7C004F24B1 /* ride-acoustic02.wav in Resources */,
 				B7F96C0F227898A300B769A6 /* Main.storyboard in Resources */,

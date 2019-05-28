@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B71A2BF3229D7C1C003A6438 /* iTunesArtwork@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B71A2BF2229D7C1B003A6438 /* iTunesArtwork@2x.png */; };
 		B7987F3122958F22004F24B1 /* crash-808.wav in Resources */ = {isa = PBXBuildFile; fileRef = B7987F3022958F22004F24B1 /* crash-808.wav */; };
 		B7987F3322958F3F004F24B1 /* clap-808.wav in Resources */ = {isa = PBXBuildFile; fileRef = B7987F3222958F3F004F24B1 /* clap-808.wav */; };
 		B7987F3522958F4A004F24B1 /* hihat-acoustic01.wav in Resources */ = {isa = PBXBuildFile; fileRef = B7987F3422958F4A004F24B1 /* hihat-acoustic01.wav */; };
@@ -47,6 +48,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B71A2BF2229D7C1B003A6438 /* iTunesArtwork@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iTunesArtwork@2x.png"; sourceTree = "<group>"; };
 		B7987F3022958F22004F24B1 /* crash-808.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "crash-808.wav"; sourceTree = "<group>"; };
 		B7987F3222958F3F004F24B1 /* clap-808.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "clap-808.wav"; sourceTree = "<group>"; };
 		B7987F3422958F4A004F24B1 /* hihat-acoustic01.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "hihat-acoustic01.wav"; sourceTree = "<group>"; };
@@ -142,6 +144,7 @@
 				B7987F4422958FAE004F24B1 /* tom-chiptune.wav */,
 				B7987F4222958F9E004F24B1 /* Post Malone - Wow. (Clean - Lyrics).mp3 */,
 				B7987F3022958F22004F24B1 /* crash-808.wav */,
+				B71A2BF2229D7C1B003A6438 /* iTunesArtwork@2x.png */,
 			);
 			path = DrumPad;
 			sourceTree = "<group>";
@@ -272,6 +275,7 @@
 				B7F96C11227898AC00B769A6 /* Assets.xcassets in Resources */,
 				B7987F3322958F3F004F24B1 /* clap-808.wav in Resources */,
 				B7987F3722958F57004F24B1 /* shaker-shuffle.wav in Resources */,
+				B71A2BF3229D7C1C003A6438 /* iTunesArtwork@2x.png in Resources */,
 				B7987F4322958F9E004F24B1 /* Post Malone - Wow. (Clean - Lyrics).mp3 in Resources */,
 				B7987F3122958F22004F24B1 /* crash-808.wav in Resources */,
 				B7987F4722958FBD004F24B1 /* kick-808.wav in Resources */,
